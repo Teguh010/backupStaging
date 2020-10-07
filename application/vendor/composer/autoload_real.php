@@ -60,11 +60,11 @@ class ComposerAutoloaderInitf05113512bb05289f7047a3067000357
     }
 }
 
-// function composerRequiref05113512bb05289f7047a3067000357($fileIdentifier, $file)
-// {
-//     if (empty($GLOBALS['__composer_autoload_files'][$fileIdentifier])) {
-//         require $file;
+function composerRequiref05113512bb05289f7047a3067000357($fileIdentifier, $file)
+{
+    if (empty($GLOBALS['__composer_autoload_files'][$fileIdentifier])) {
+        require $file;
 
-//         $GLOBALS['__composer_autoload_files'][$fileIdentifier] = true;
-//     }
-// }
+        $GLOBALS['__composer_autoload_files'][$fileIdentifier] = true;
+    }
+}
