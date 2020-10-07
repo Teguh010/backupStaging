@@ -1,0 +1,8 @@
+.*
+!/.gitignore
+!/.htaccess
+node_modules
+system
+application/config/config.php
+application/config/database.php
+img/studentUpload

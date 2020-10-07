@@ -1,0 +1,83 @@
+.c100.green  {
+  border-color: #4db53c !important;
+}
+.c100.green > span {
+  color: #4db53c;
+}
+
+.c100.orange {
+  border-color: #dd9d22 !important;
+}
+.c100.orange > span {
+  color: #dd9d22;
+}
+.c100.red {
+  border-color: #e3423d !important;
+}
+.c100.red > span {
+  width: 2em;
+  color: #e3423d;
+}
+
+.c100.center {
+  float: none;
+  margin: 0 auto;
+}
+.c100.big {
+  font-size: 50px;
+}
+.c100.small {
+  font-size: 30px;
+}
+
+/* TABLE REPORT */
+.table-header-rotated {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin-top: 35px;
+  background-color: #FFFFFF;
+}
+
+.table-header-rotated th.row-header{
+  width: auto;
+  border-left: 1px solid #ccc;
+}
+
+.table-header-rotated td{
+  width: 40px auto;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-header-rotated th.rotate-45{
+  height: 120px;
+  width: 40px;
+  min-width: 40px;
+  max-width: 40px;
+  position: relative;
+  vertical-align: bottom;
+  padding: 0;
+  font-size: 14px;
+  line-height: 0.8;
+  border: 1px solid #dddddd;
+}
+
+.table-header-rotated th.rotate-45 > div{
+  position: relative;
+  top: -65px;
+  left: -67px;
+  width: 180px;
+  -ms-transform:rotate(-90deg);
+  -moz-transform:rotate(-90deg);
+  -webkit-transform:rotate(-90deg);
+  -o-transform:rotate(-90deg);
+  transform:rotate(-90deg);
+  overflow: hidden;
+  white-space: normal; 
+  height: 48px;
+  padding: 5px;
+  line-height: 1.1;
+}

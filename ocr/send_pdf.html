@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title>OCR Demo</title>
+</head>
+
+<body>
+    <h1>
+        OCR Upload Form - ONLY FOR PRIMARY MATH
+    </h1>
+    <form action='http://127.0.0.1:5002/ocr' method='POST' enctype="multipart/form-data">
+        <label for='upload_pdf'><b>Select PDF to upload: </b></label>
+        <input type='file' id='upload_pdf' name='pdf_file' 
+            accept='.pdf' multiple>
+        <br><br>
+        <input type='submit' name='Upload'>   
+    </form>
+</body>
+
+</html>
