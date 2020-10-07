@@ -136,7 +136,7 @@
 
                 <p id="tagline-main">"Education made easy when you can prepare, generate and share worksheets in just a
 
-                    few clicks."</p>
+                    few clicks"</p>
 
                 <!-- 				<p id="tagline-url">www.SmartJen.com</p> -->
 
